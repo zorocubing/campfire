@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6gqfa8g4aowv"
+path="res://.godot/imported/ScreenRecording_03-01-2026 15-47-19_1.mp3-8306c5cb27cae87af99d6e1bcca2f975.mp3str"
+
+[deps]
+
+source_file="res://assets/music/ScreenRecording_03-01-2026 15-47-19_1.mp3"
+dest_files=["res://.godot/imported/ScreenRecording_03-01-2026 15-47-19_1.mp3-8306c5cb27cae87af99d6e1bcca2f975.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

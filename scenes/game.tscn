@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://cnm2pi7xacq20" path="res://scenes/coin.tscn" id="6_p57ef"]
 [ext_resource type="Script" uid="uid://bh4ey30y0iff8" path="res://scripts/score.gd" id="6_u5sy4"]
 [ext_resource type="FontFile" uid="uid://bqns3vyxm60iv" path="res://assets/fonts/PixelOperator8.ttf" id="7_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://dgr17fucaysh5" path="res://scenes/music.tscn" id="8_0tnpc"]
+[ext_resource type="AudioStream" uid="uid://c6gqfa8g4aowv" path="res://assets/music/ScreenRecording_03-01-2026 15-47-19_1.mp3" id="9_vtaks"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -474,3 +476,7 @@ autoplay = &"move"
 
 [node name="coin12" parent="." unique_id=1071019091 instance=ExtResource("6_p57ef")]
 position = Vector2(-68, -1277)
+
+[node name="music" parent="." unique_id=55731948 instance=ExtResource("8_0tnpc")]
+stream = ExtResource("9_vtaks")
+bus = &"music"
