@@ -5,6 +5,14 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pnpiv"]
 size = Vector2(32, 8)
 
+[sub_resource type="Animation" id="Animation_byowd"]
+resource_name = "move"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pnpiv"]
+_data = {
+&"move": SubResource("Animation_byowd")
+}
+
 [node name="platforms" type="AnimatableBody2D" unique_id=1858145567]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=295469756]
@@ -16,3 +24,6 @@ region_rect = Rect2(16, 0, 32, 9)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1044355166]
 shape = SubResource("RectangleShape2D_pnpiv")
 one_way_collision = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1369843230]
+libraries/ = SubResource("AnimationLibrary_pnpiv")
